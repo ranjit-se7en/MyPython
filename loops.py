@@ -46,6 +46,7 @@ def fibo(n):
 f=fibo(99)
 print(f)
 
+
 # def arguments(*args,**kwargs):
 #     for i in args:
 #         print (i)
@@ -54,4 +55,3 @@ print(f)
 #
 # a=arguments("This is 1", "This is 2", k1="This is test 1", k2="This is test 2")
 # b=arguments("This is 2", "This is 3", k1="This is test 3", k2="This is test 4")
-
