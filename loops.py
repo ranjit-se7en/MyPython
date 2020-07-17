@@ -43,8 +43,8 @@ def fibo(n):
         a, b = b,   a+b
     return result
 
-# f=fibo(100)
-# print(f)
+f=fibo(99)
+print(f)
 
 # def arguments(*args,**kwargs):
 #     for i in args:
