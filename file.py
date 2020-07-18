@@ -20,14 +20,14 @@ def readline(filename):
         with open(filename) as file:
             for line in file:
                 print(line, end='\t')
-
     except OSError as err:
         print("Error Occured wile openning file {}".format(err))
+        sys.exit(1)
 
 if __name__=="__main__":
     fname=input("Please Enter the filename to read:")
     readline(fname)
-    sys.exit(0)
+
 
 
 

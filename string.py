@@ -66,4 +66,36 @@ for i,j in d.items():
     print(i, j)
 
 print(__name__)
+#Print raw string without escaping
+print(r"\t\n\u\r\b\c\v")
+
+multisting="""
+THis is a 
+Multiple 
+Line
+String
+
+"""
+
+string="RANDOM,TEST,PLACES"
+print()
+print()
+print()
+print(multisting)
+#Stepping a slice string
+
+sliced=string.split(',')
+print(sliced)
+
+#Print 2nd letter of the word TEST in sliced String
+print(sliced[1][1])
+
+print()
+test="BLAH!"
+print(test * 3)
+
+if "HA" in test:
+    print("YES")
+else:
+    print("NO")
 
