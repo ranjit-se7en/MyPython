@@ -99,3 +99,17 @@ if "HA" in test:
 else:
     print("NO")
 
+name="John"
+age=28
+
+print("Hello " + name + " Your age is " + str(age) + " Nice to meet you!")
+
+print()
+# above string can also be printed as follows
+
+print("Hello {0} Your age is {1} Nice to meet you!".format(name, age))
+
+print()
+
+for j in range  (1, 10+1):
+    print("Square of Number {:2} is {:4}, and Cube of Number {:2} is {:4}".format(j, j ** 2, j, j ** 3))
