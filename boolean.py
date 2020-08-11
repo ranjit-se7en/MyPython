@@ -1,4 +1,4 @@
-Test= "do"
+Test="do"
 String="How Do You Do?"
 Items=String.split(' ')
 
