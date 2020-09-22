@@ -1,3 +1,3 @@
 import webbrowser
 
-webbrowser.open("https://www.python.org")
+webbrowser.open("https://www.facebook.com")
